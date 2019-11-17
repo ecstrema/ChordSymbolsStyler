@@ -8,8 +8,8 @@ First open the file in any text editor (such as Musescore's plugin manager)
 Add or remove replacement rules
 Select a Chord Symbol and run the plugin.
 
-[inline:ChordSymbolsStart.PNG]
-[inline:ChordSymbolsEnd.PNG]
+![My image](Marr11317.github.com/ChordSymbolsStyler/ChordSymbolsStart.PNG)
+![My image](Marr11317.github.com/ChordSymbolsStyler/ChordSymbolsEnd.PNG)
 
 # [Download For MuseScore 3.3](https://github.com/Marr11317/ChordSymbolsStyler/archive/master.zip)
 
