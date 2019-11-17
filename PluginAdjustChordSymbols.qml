@@ -5,7 +5,7 @@ import Qt.labs.settings 1.0
 
 MuseScore {
       menuPath: "Plugins.ChordSymbolsStyler"
-      description: "This plugin replaces extensions with other extensions of your choice."
+      description: "This plugin replaces extensions in chord symbols with other extensions of your choice."
       version: "1.1"
       requiresScore: true
       onRun: {
@@ -58,29 +58,6 @@ MuseScore {
                   curScore.endCmd();
                   Qt.quit();
             }
-      }
-      
-      function findMeasureNumber (mea) {
-            if (!mea) {
-                  console.log("findMeasureNumber: no measure");
-                  return 0;
-            }
-            
-            var ms = mea
-            var i = 1;
-            while (ms.prev) {
-                  ms = ms.prev;
-                  if (ms.is (curScore.firstMeasure))
-                        return i;
-                  // todo: don't count measure if excluded from measure count
-                  console.log(i)
-                  i++;
-            }
-            if (i > 1){
-                  console.log("findMeasureNumber: measure not found");
-                  return 0;
-            }
-            return 1; // it was measure number 1
       }
             
       MessageDialog {
