@@ -3,7 +3,7 @@ Adjust chord symbol following simple replacements. Needs MuseScore 3.3 or higher
 
 Since the api doesn't allow much for selections, to run these plugins you have to select manually an example object. See usage for more details.
 
-##Usage:
+## Usage:
 First open the file in any text editor (such as Musescore's plugin manager)
 Add or remove replacement rules
 Select a Chord Symbol and run the plugin.
