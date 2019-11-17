@@ -4,8 +4,8 @@ import QtQuick.Dialogs 1.1
 import Qt.labs.settings 1.0
 
 MuseScore {
-      menuPath: "Plugins.RehearsalMarks.AddAtBarlines"
-      description: "This plugin adds rehearsal marks at double barlines and begin repeat barlines."
+      menuPath: "Plugins.ChordSymbolsStyler"
+      description: "This plugin replaces extensions with other extensions of your choice."
       version: "1.1"
       requiresScore: true
       onRun: {
