@@ -39,15 +39,11 @@ MuseScore {
                               if (element.type == Element.HARMONY) {
                                     console.log("Found a chord symbol: ", element.text);
                                     var txt = element.text;
-                                    txt = txt.replace("m6", "-6")
-                                    txt = txt.replace("m7", "-7")
-                                    txt = txt.replace("m9", "-9")
-                                    txt = txt.replace("m11", "-11")
-                                    txt = txt.replace("Maj7", "maj7")
-                                    txt = txt.replace("Maj9", "maj9")
-                                    txt = txt.replace("7(b9)", "7b9")
-                                    txt = txt.replace("7(#5)", "7#5")
-                                    txt = txt.replace("7(b5)", "7b5")
+                                    txt = txt.replace("m", "-")
+                                    txt = txt.replace("Maj", "maj")
+                                    txt = txt.replace("(b9)", "b9")
+                                    txt = txt.replace("(#5)", "#5")
+                                    txt = txt.replace("(b5)", "b5")
                                     
                                     element.text = txt;
                                     console.log("text replaced with: ", txt);
